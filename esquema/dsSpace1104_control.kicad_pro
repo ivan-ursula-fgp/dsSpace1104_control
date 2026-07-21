@@ -367,7 +367,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -398,7 +398,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -413,6 +413,10 @@
     [
       "b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3",
       "Root"
+    ],
+    [
+      "c3252eb9-db35-49c4-8cb8-b752af21ce23",
+      "R_equivalente"
     ]
   ],
   "text_variables": {}
