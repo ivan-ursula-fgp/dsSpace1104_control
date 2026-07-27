@@ -3122,9 +3122,19 @@
 		)
 		(uuid "31bfdd84-f794-4ff0-89c7-0d358377c19f")
 	)
+	(text "78k=1.95"
+		(exclude_from_sim no)
+		(at 246.126 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42bd6ebd-71d7-4010-9965-b886c029894a")
+	)
 	(text "33.3mw"
 		(exclude_from_sim no)
-		(at 139.954 99.314 0)
+		(at 141.224 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3141,6 +3151,16 @@
 			)
 		)
 		(uuid "5aef31ce-6027-4f6f-be12-b4935fbd575a")
+	)
+	(text "3.9w"
+		(exclude_from_sim no)
+		(at 245.618 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f1170b2-182b-4306-8e7d-bfa2bf8beedf")
 	)
 	(text "R1/R2=39/1"
 		(exclude_from_sim no)
@@ -3161,6 +3181,16 @@
 			)
 		)
 		(uuid "bd80c671-9af7-4825-acc1-a073c3a9186b")
+	)
+	(text "0.1w"
+		(exclude_from_sim no)
+		(at 240.792 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7adb767-20ed-4628-adcd-383131eedb5f")
 	)
 	(text "G=1/75"
 		(exclude_from_sim no)
@@ -3193,6 +3223,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09c87907-b510-42b8-9e1d-b52d119137b6")
+	)
+	(junction
+		(at 237.49 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd5986d-c69e-41cf-9bd4-023fda39eb09")
 	)
 	(junction
 		(at 350.52 46.99)
@@ -3229,12 +3265,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f0f9309-02ba-4d75-9047-a682c80757f5")
-	)
-	(junction
-		(at 236.22 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f16c4f9-2ce9-4494-abc6-3b2eca158211")
 	)
 	(junction
 		(at 132.08 152.4)
@@ -3307,6 +3337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eab4329-b849-4bdf-b571-74cfc6f2c8e5")
+	)
+	(junction
+		(at 236.22 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f5ccdf5-bd5a-44a0-855d-1ba55f2b832c")
 	)
 	(junction
 		(at 82.55 247.65)
@@ -3453,12 +3489,6 @@
 		(uuid "821a8d8d-1636-4260-8cc0-71379604b678")
 	)
 	(junction
-		(at 237.49 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85e9d8b0-9360-4dc8-b2ca-090527287743")
-	)
-	(junction
 		(at 261.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3591,6 +3621,12 @@
 		(uuid "b987829a-065c-4f3a-b6be-dd5762d42481")
 	)
 	(junction
+		(at 237.49 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba688a04-5e6e-42b6-a72f-e7db19db863f")
+	)
+	(junction
 		(at 109.22 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3693,12 +3729,6 @@
 		(uuid "e3a20d9e-872f-42a5-907d-2b8e27e6d47d")
 	)
 	(junction
-		(at 237.49 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3e373f9-91d6-4704-ae24-aab5b3b2b838")
-	)
-	(junction
 		(at 341.63 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3778,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 115.57) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001a7536-2192-4a27-9d95-b5823238374b")
+	)
+	(wire
+		(pts
 			(xy 257.81 26.67) (xy 257.81 24.13)
 		)
 		(stroke
@@ -3838,16 +3878,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 133.35) (xy 237.49 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0522d72a-28b4-4c28-bd3c-444fb76e5bec")
-	)
-	(wire
-		(pts
 			(xy 369.57 46.99) (xy 378.46 46.99)
 		)
 		(stroke
@@ -3858,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 115.57) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0604b606-e96b-41b0-9976-8eb6685f2949")
+	)
+	(wire
+		(pts
 			(xy 242.57 180.34) (xy 242.57 185.42)
 		)
 		(stroke
@@ -3865,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "06193661-d367-48e4-9e4c-aa5110a28023")
+	)
+	(wire
+		(pts
+			(xy 237.49 184.15) (xy 237.49 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062cc886-6197-4075-9431-6847eccb559f")
 	)
 	(wire
 		(pts
@@ -3935,6 +3985,16 @@
 			(type default)
 		)
 		(uuid "0c801233-1b2c-4c88-9b3d-fb47e20b5c9d")
+	)
+	(wire
+		(pts
+			(xy 237.49 173.99) (xy 237.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c89a40b-5b0f-4a0c-8eb1-f8c4afadebc1")
 	)
 	(wire
 		(pts
@@ -4108,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 81.28) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1559c269-b2b6-4929-bba7-353b28199abd")
+	)
+	(wire
+		(pts
 			(xy 29.21 64.77) (xy 31.75 64.77)
 		)
 		(stroke
@@ -4135,16 +4205,6 @@
 			(type default)
 		)
 		(uuid "16b7ab4e-0877-4fd0-923a-f4ffc6691a2e")
-	)
-	(wire
-		(pts
-			(xy 236.22 102.87) (xy 236.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1786f8be-4844-4538-9770-25726f3c806f")
 	)
 	(wire
 		(pts
@@ -4215,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "1b53d9ce-b339-48bd-87c9-5e9a78af5cba")
+	)
+	(wire
+		(pts
+			(xy 233.68 72.39) (xy 236.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfe15f5-a216-47fa-b03b-a583e5906c64")
 	)
 	(wire
 		(pts
@@ -4308,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 161.29) (xy 229.87 172.72)
+			(xy 229.87 157.48) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4325,6 +4395,16 @@
 			(type default)
 		)
 		(uuid "217018b0-4fb1-434d-8f69-d76378552489")
+	)
+	(wire
+		(pts
+			(xy 237.49 175.26) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e6b607-85f3-4ada-879c-1e31994a6581")
 	)
 	(wire
 		(pts
@@ -4548,16 +4628,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 119.38) (xy 237.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e162d1b-7118-4e8e-b955-ca135420e63f")
-	)
-	(wire
-		(pts
 			(xy 340.36 156.21) (xy 334.01 156.21)
 		)
 		(stroke
@@ -4625,16 +4695,6 @@
 			(type default)
 		)
 		(uuid "31138d13-1388-4cab-b975-5e1ae4fc1ee1")
-	)
-	(wire
-		(pts
-			(xy 237.49 132.08) (xy 237.49 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346cd88c-ec98-4b1a-b964-1309995ad312")
 	)
 	(wire
 		(pts
@@ -4765,16 +4825,6 @@
 			(type default)
 		)
 		(uuid "3e9b3de2-2cef-443d-9156-0bde23d0eb44")
-	)
-	(wire
-		(pts
-			(xy 237.49 175.26) (xy 237.49 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f312869-4aa7-43c9-8bed-d5966b1addcd")
 	)
 	(wire
 		(pts
@@ -4928,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 90.17) (xy 246.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48beac39-59c4-4195-ba42-9b14f1f68820")
+	)
+	(wire
+		(pts
 			(xy 382.27 156.21) (xy 382.27 140.97)
 		)
 		(stroke
@@ -5008,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 161.29) (xy 229.87 161.29)
+			(xy 237.49 157.48) (xy 229.87 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5188,16 +5248,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 90.17) (xy 246.38 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a2224c-f205-4db8-9562-3c3effa7e783")
-	)
-	(wire
-		(pts
 			(xy 110.49 154.94) (xy 110.49 167.64)
 		)
 		(stroke
@@ -5225,16 +5275,6 @@
 			(type default)
 		)
 		(uuid "5687d4a9-ca2a-4f65-b1de-5ce0e5805e67")
-	)
-	(wire
-		(pts
-			(xy 237.49 161.29) (xy 237.49 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fdbf6d-4263-4c4c-bb5c-250931a380d9")
 	)
 	(wire
 		(pts
@@ -5365,16 +5405,6 @@
 			(type default)
 		)
 		(uuid "5e00572f-fc33-4147-b29c-eafce6034275")
-	)
-	(wire
-		(pts
-			(xy 236.22 90.17) (xy 236.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e52bdb6-aeea-43b9-a8e4-cb58ff2d1d97")
 	)
 	(wire
 		(pts
@@ -5548,6 +5578,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 124.46) (xy 237.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4f97db-be94-4302-b966-2cdc8ecfbbc4")
+	)
+	(wire
+		(pts
 			(xy 52.07 40.64) (xy 52.07 41.91)
 		)
 		(stroke
@@ -5588,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 172.72) (xy 229.87 172.72)
+			(xy 215.9 161.29) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5788,6 +5828,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 102.87) (xy 236.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae707ea-084d-4253-900d-c9b786fb57fe")
+	)
+	(wire
+		(pts
 			(xy 189.23 252.73) (xy 195.58 252.73)
 		)
 		(stroke
@@ -5845,16 +5895,6 @@
 			(type default)
 		)
 		(uuid "7dd446f2-c052-4d48-95f0-42540581300d")
-	)
-	(wire
-		(pts
-			(xy 237.49 175.26) (xy 245.11 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd8dedb-d1b7-4aae-a75d-b8c8d44e477d")
 	)
 	(wire
 		(pts
@@ -6038,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 130.81) (xy 229.87 130.81)
+			(xy 215.9 119.38) (xy 231.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6268,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 175.26) (xy 245.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985ac5b3-1cf5-4942-a17d-0fbf62261a1b")
+	)
+	(wire
+		(pts
 			(xy 323.85 110.49) (xy 323.85 95.25)
 		)
 		(stroke
@@ -6275,16 +6325,6 @@
 			(type default)
 		)
 		(uuid "995ae33b-6cea-455e-8322-a663773d8f45")
-	)
-	(wire
-		(pts
-			(xy 237.49 187.96) (xy 237.49 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8ba3ef-c593-499b-a79f-03798cd4a2ab")
 	)
 	(wire
 		(pts
@@ -6638,16 +6678,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 228.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ce0b90-7d76-4866-a921-b8e76c00aab0")
-	)
-	(wire
-		(pts
 			(xy 138.43 250.19) (xy 140.97 250.19)
 		)
 		(stroke
@@ -6675,6 +6705,16 @@
 			(type default)
 		)
 		(uuid "b161cd5c-0eae-48c5-b287-6bda068b3ea8")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 237.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2afb154-f6cb-4cf6-84bd-18f9291ab53d")
 	)
 	(wire
 		(pts
@@ -6785,16 +6825,6 @@
 			(type default)
 		)
 		(uuid "b70230e4-b1d6-4f4c-8af4-3cbc39df5af8")
-	)
-	(wire
-		(pts
-			(xy 236.22 76.2) (xy 236.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74f6581-96dc-4c34-8ab2-7d34df2bc950")
 	)
 	(wire
 		(pts
@@ -7128,26 +7158,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 119.38) (xy 229.87 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf6d979-25bc-49c8-9bfb-76ca2265db57")
-	)
-	(wire
-		(pts
-			(xy 237.49 119.38) (xy 229.87 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc96135-165a-45e3-9fd2-00dac58914b0")
-	)
-	(wire
-		(pts
 			(xy 140.97 250.19) (xy 140.97 240.03)
 		)
 		(stroke
@@ -7165,16 +7175,6 @@
 			(type default)
 		)
 		(uuid "cbe2e0ac-4984-47c1-9c2c-3e0e58c4a03d")
-	)
-	(wire
-		(pts
-			(xy 237.49 172.72) (xy 237.49 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc88ffd5-c8f6-4691-bd5b-39ffee45199c")
 	)
 	(wire
 		(pts
@@ -7308,6 +7308,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 72.39) (xy 236.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07c9abf-0824-4051-950f-76b37f0ec0d4")
+	)
+	(wire
+		(pts
 			(xy 85.09 99.06) (xy 82.55 99.06)
 		)
 		(stroke
@@ -7325,16 +7335,6 @@
 			(type default)
 		)
 		(uuid "d14cdc8f-eef0-4010-b784-814ef9e43b57")
-	)
-	(wire
-		(pts
-			(xy 236.22 87.63) (xy 236.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d748c8-db20-443d-98d2-53d36630c2fe")
 	)
 	(wire
 		(pts
@@ -7898,7 +7898,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 87.63) (xy 228.6 87.63)
+			(xy 218.44 78.74) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7958,7 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 228.6 87.63)
+			(xy 233.68 72.39) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8055,16 +8055,6 @@
 			(type default)
 		)
 		(uuid "f5851028-efe1-40b8-a663-96b986e685fa")
-	)
-	(wire
-		(pts
-			(xy 237.49 147.32) (xy 237.49 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b12c02-b0c6-487d-a60e-cff9144e887f")
 	)
 	(wire
 		(pts
@@ -8178,6 +8168,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 133.35) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4712e9-f357-4abf-aea5-59eac5d28400")
+	)
+	(wire
+		(pts
 			(xy 107.95 200.66) (xy 107.95 213.36)
 		)
 		(stroke
@@ -8185,6 +8185,16 @@
 			(type default)
 		)
 		(uuid "fa75aea9-babb-4da8-96fb-2251a5231d2f")
+	)
+	(wire
+		(pts
+			(xy 237.49 165.1) (xy 237.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa959a54-8c13-4219-9d9c-287151128ec1")
 	)
 	(wire
 		(pts
@@ -8215,6 +8225,16 @@
 			(type default)
 		)
 		(uuid "fb8a0e89-e326-400a-b94c-52abe35cec9c")
+	)
+	(wire
+		(pts
+			(xy 237.49 146.05) (xy 237.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfedcf5-de91-41bf-9d55-c3c88ed5198c")
 	)
 	(wire
 		(pts
@@ -8268,6 +8288,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 90.17) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff502216-beaf-44ef-9521-d63dee76461c")
+	)
+	(wire
+		(pts
 			(xy 82.55 247.65) (xy 82.55 254)
 		)
 		(stroke
@@ -8297,7 +8327,7 @@
 		(uuid "4630322a-3f63-49b1-9019-759f942369e0")
 	)
 	(label "CH3_Vac_400"
-		(at 215.9 172.72 0)
+		(at 215.9 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8317,7 +8347,7 @@
 		(uuid "7efc6a41-a2a2-41c8-ba9c-1e4316f0a006")
 	)
 	(label "CH1_Vac_400"
-		(at 214.63 87.63 0)
+		(at 218.44 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8337,7 +8367,7 @@
 		(uuid "acecb2cd-7563-4605-8f6a-3fd744063f56")
 	)
 	(label "CH2_Vac_400"
-		(at 214.63 130.81 0)
+		(at 215.9 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8467,7 +8497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 267.208 90)
 			(effects
 				(font
@@ -8476,7 +8506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 120.65 265.43 0)
 			(effects
 				(font
@@ -8487,6 +8517,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 120.65 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 120.65 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.608 140.97 90)
 			(effects
 				(font
@@ -8546,7 +8585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23655-0603WAF2872T5E/C22928"
 			(at 290.83 140.97 0)
 			(effects
 				(font
@@ -8556,6 +8595,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 290.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22928"
 			(at 290.83 140.97 0)
 			(effects
 				(font
@@ -8673,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 118.618 90)
 			(effects
 				(font
@@ -8682,7 +8730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23767-0603WAF4021T5E/C23040"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -8693,6 +8741,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23040"
+			(at 91.44 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/onsemi-LM358DR2G/C7950"
 			(at 325.12 38.1 0)
 			(effects
 				(font
@@ -8836,7 +8893,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5423"
+		(property "JLCPCB" "C7950"
 			(at 325.12 38.1 0)
 			(effects
 				(font
@@ -9045,7 +9102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.07 269.748 90)
 			(effects
 				(font
@@ -9054,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 179.07 267.97 0)
 			(effects
 				(font
@@ -9065,6 +9122,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 179.07 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 179.07 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 130.302 97.79 90)
 			(effects
 				(font
@@ -9124,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18349-0805W8F3001T5E/C17661"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -9142,7 +9208,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17513"
+		(property "JLCPCB" "C17661"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -9191,7 +9257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 313.69 197.358 90)
 			(effects
 				(font
@@ -9200,7 +9266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 313.69 195.58 0)
 			(effects
 				(font
@@ -9211,6 +9277,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 313.69 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 313.69 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +10004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 372.11 157.988 90)
 			(effects
 				(font
@@ -9938,7 +10013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 372.11 156.21 0)
 			(effects
 				(font
@@ -9949,6 +10024,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 372.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 372.11 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 215.138 90)
 			(effects
 				(font
@@ -10137,7 +10221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 91.44 213.36 0)
 			(effects
 				(font
@@ -10148,6 +10232,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 91.44 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 215.138 90)
 			(effects
 				(font
@@ -10445,7 +10538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 119.38 213.36 0)
 			(effects
 				(font
@@ -10456,6 +10549,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 119.38 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 119.38 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 100.838 90)
 			(effects
 				(font
@@ -10578,7 +10680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23767-0603WAF4021T5E/C23040"
 			(at 88.9 99.06 0)
 			(effects
 				(font
@@ -10589,6 +10691,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23040"
+			(at 88.9 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +11091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 163.83 241.808 90)
 			(effects
 				(font
@@ -10989,7 +11100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23634-0603WAF2871T5E/C22907"
 			(at 163.83 240.03 0)
 			(effects
 				(font
@@ -11000,6 +11111,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 163.83 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22907"
+			(at 163.83 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 327.66 182.118 90)
 			(effects
 				(font
@@ -11134,7 +11254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23791-0603WAF4870T5E/C23064"
 			(at 327.66 180.34 0)
 			(effects
 				(font
@@ -11145,6 +11265,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 327.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23064"
+			(at 327.66 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 177.8 217.678 90)
 			(effects
 				(font
@@ -11520,7 +11649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 177.8 215.9 0)
 			(effects
 				(font
@@ -11531,6 +11660,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 177.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 177.8 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.93 197.358 90)
 			(effects
 				(font
@@ -11587,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26723-0603WAF7151T5E/C25980"
 			(at 74.93 195.58 0)
 			(effects
 				(font
@@ -11598,6 +11736,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "0603"
+			(at 74.93 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +11792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 269.24 137.668 90)
 			(effects
 				(font
@@ -11654,7 +11801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23829-0603WAF7681T5E/C23102"
 			(at 269.24 135.89 0)
 			(effects
 				(font
@@ -11665,6 +11812,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23102"
+			(at 269.24 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,6 +11911,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 237.49 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "378dd046-5b17-4ce4-b502-1521953c6de0")
+		(property "Reference" "R44"
+			(at 240.03 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 240.03 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 235.712 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "553952ab-fdbe-4826-bd8f-ba018d38f7ca")
+		)
+		(pin "1"
+			(uuid "054a29f1-df45-429a-9e2f-29ad02d68de5")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 290.83 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11781,7 +12016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.608 182.88 90)
 			(effects
 				(font
@@ -11790,7 +12025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23655-0603WAF2872T5E/C22928"
 			(at 290.83 182.88 0)
 			(effects
 				(font
@@ -11800,6 +12035,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 290.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22928"
 			(at 290.83 182.88 0)
 			(effects
 				(font
@@ -11884,76 +12128,6 @@
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40f836f1-8f24-4861-86f2-cda633d6ac11")
-		(property "Reference" "R46"
-			(at 240.03 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39k"
-			(at 240.03 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3954da98-cbc8-42c2-ac15-8a0e3669788f")
-		)
-		(pin "1"
-			(uuid "d6debf1c-d9c2-4e35-87dd-717c4e61d21e")
-		)
-		(instances
-			(project "dsSpace1104_control"
-				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -12051,7 +12225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 327.66 97.028 90)
 			(effects
 				(font
@@ -12060,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23791-0603WAF4870T5E/C23064"
 			(at 327.66 95.25 0)
 			(effects
 				(font
@@ -12071,6 +12245,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 327.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23064"
+			(at 327.66 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,6 +12340,85 @@
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498a9855-800f-4451-9610-2fff814912a1")
+		(property "Reference" "R45"
+			(at 240.03 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 240.03 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 235.712 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18632-1206W4F2001T5E/C17944"
+			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17944"
+			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c4a4ba0-28d4-4232-a808-de1b333dfd36")
+		)
+		(pin "1"
+			(uuid "f81fc640-73ce-41cc-9873-f10e6f230521")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -12253,7 +12515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 151.13 269.748 90)
 			(effects
 				(font
@@ -12262,7 +12524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 151.13 267.97 0)
 			(effects
 				(font
@@ -12273,6 +12535,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 151.13 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 269.24 179.578 90)
 			(effects
 				(font
@@ -12428,7 +12699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23829-0603WAF7681T5E/C23102"
 			(at 269.24 177.8 0)
 			(effects
 				(font
@@ -12439,6 +12710,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 269.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23102"
+			(at 269.24 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,85 +12736,6 @@
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d4d0efb-3c47-4c40-9167-905893787f6a")
-		(property "Reference" "R45"
-			(at 240.03 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 240.03 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 235.712 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"
-			(at 237.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C17513"
-			(at 237.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf7a7e95-48e2-4c68-bddc-fd600be4b8b8")
-		)
-		(pin "1"
-			(uuid "8a56e22e-25fc-4ab1-bef2-5db292a6e27a")
-		)
-		(instances
-			(project "dsSpace1104_control"
-				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -12608,85 +12809,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "503a7863-ae09-4450-b4f4-acde1c460263")
-		(property "Reference" "R7"
-			(at 238.76 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 238.76 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 234.442 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C17513"
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a46548d2-08fe-4199-b54d-b4c2da15b0e3")
-		)
-		(pin "1"
-			(uuid "f34a7621-7867-463d-82ab-58cfbbc776c6")
-		)
-		(instances
-			(project ""
-				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 290.83 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12713,7 +12835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.608 97.79 90)
 			(effects
 				(font
@@ -12722,7 +12844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23655-0603WAF2872T5E/C22928"
 			(at 290.83 97.79 0)
 			(effects
 				(font
@@ -12732,6 +12854,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 290.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22928"
 			(at 290.83 97.79 0)
 			(effects
 				(font
@@ -12925,7 +13056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.75 112.268 90)
 			(effects
 				(font
@@ -12934,7 +13065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 285.75 110.49 0)
 			(effects
 				(font
@@ -12945,6 +13076,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 285.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 285.75 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 327.66 140.208 90)
 			(effects
 				(font
@@ -13071,7 +13211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23791-0603WAF4870T5E/C23064"
 			(at 327.66 138.43 0)
 			(effects
 				(font
@@ -13082,6 +13222,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 327.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23064"
+			(at 327.66 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,85 +13610,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d8978db-9f0d-4919-b023-db710a5d9b55")
-		(property "Reference" "R43"
-			(at 240.03 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 240.03 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 235.712 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18201-0805W8F1001T5E/C17513"
-			(at 237.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C17513"
-			(at 237.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afe69311-c4f3-4587-83c8-28252495e1b7")
-		)
-		(pin "1"
-			(uuid "98e7298e-9117-41ae-8da9-48dd2272b0d6")
-		)
-		(instances
-			(project "dsSpace1104_control"
-				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 349.25 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13566,7 +13636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 351.028 143.51 90)
 			(effects
 				(font
@@ -13575,7 +13645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26701-0603WAF1821T5E/C25958"
 			(at 349.25 143.51 0)
 			(effects
 				(font
@@ -13585,6 +13655,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 349.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25958"
 			(at 349.25 143.51 0)
 			(effects
 				(font
@@ -13969,7 +14048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 356.87 171.958 90)
 			(effects
 				(font
@@ -13978,7 +14057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-CR1206_FX1371ELF/C204642"
 			(at 356.87 170.18 0)
 			(effects
 				(font
@@ -13989,6 +14068,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 356.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C204642"
+			(at 356.87 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,6 +14268,85 @@
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658cfeea-85c1-433b-a743-cb799da74592")
+		(property "Reference" "R46"
+			(at 240.03 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 240.03 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 235.712 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 237.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 237.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56e2ddf3-2edd-40a3-8483-3a2a609ea5ac")
+		)
+		(pin "1"
+			(uuid "d259854f-b468-4ec0-89d6-c0c01a9527f0")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -14577,6 +14744,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.22 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3c338a-a9f8-40ab-8026-3ccec633d378")
+		(property "Reference" "R5"
+			(at 238.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 238.76 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 234.442 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a81381d-c2c7-4d74-85d9-b006663e1d00")
+		)
+		(pin "1"
+			(uuid "05548b79-8039-4bfc-a87c-d8a3819720ad")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 309.88 95.25 0)
 		(unit 1)
@@ -14872,7 +15118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 144.018 90)
 			(effects
 				(font
@@ -14881,7 +15127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23634-0603WAF2871T5E/C22907"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -14892,6 +15138,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22907"
+			(at 165.1 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +15898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 356.87 130.048 90)
 			(effects
 				(font
@@ -15652,7 +15907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-CR1206_FX1371ELF/C204642"
 			(at 356.87 128.27 0)
 			(effects
 				(font
@@ -15663,6 +15918,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 356.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C204642"
+			(at 356.87 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 372.11 199.898 90)
 			(effects
 				(font
@@ -15719,7 +15983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 372.11 198.12 0)
 			(effects
 				(font
@@ -15730,6 +15994,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 372.11 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +16224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 152.4 171.958 90)
 			(effects
 				(font
@@ -15960,7 +16233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -15971,6 +16244,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 152.4 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16084,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 187.198 90)
 			(effects
 				(font
@@ -16093,7 +16375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23783-0603WAF4422T5E/C23056"
 			(at 104.14 185.42 0)
 			(effects
 				(font
@@ -16104,6 +16386,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 104.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23056"
+			(at 104.14 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16217,7 +16508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 249.428 90)
 			(effects
 				(font
@@ -16226,7 +16517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26723-0603WAF7151T5E/C25980"
 			(at 76.2 247.65 0)
 			(effects
 				(font
@@ -16237,6 +16528,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 76.2 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "0603"
+			(at 76.2 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16455,7 +16755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/onsemi-LM358DR2G/C7950"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -16473,7 +16773,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5423"
+		(property "JLCPCB" "C7950"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -16619,7 +16919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 344.17 157.988 90)
 			(effects
 				(font
@@ -16628,7 +16928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 344.17 156.21 0)
 			(effects
 				(font
@@ -16639,6 +16939,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 344.17 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 344.17 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16874,6 +17183,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "882d008a-7d33-471d-a4f6-4909a99155a6")
+		(property "Reference" "R43"
+			(at 240.03 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 240.03 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 235.712 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3e68732-eef8-45e6-98c3-cd9e8d084351")
+		)
+		(pin "1"
+			(uuid "14506b82-875f-4eb8-ab09-d533da9b5949")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 96.52 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16900,7 +17288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 98.298 200.66 90)
 			(effects
 				(font
@@ -16909,7 +17297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26705-0603WAF2492T5E/C25962"
 			(at 96.52 200.66 0)
 			(effects
 				(font
@@ -16919,6 +17307,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 96.52 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25962"
 			(at 96.52 200.66 0)
 			(effects
 				(font
@@ -17699,7 +18096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 133.35 199.898 90)
 			(effects
 				(font
@@ -17708,7 +18105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23787-0603WAF4640T5E/C23060"
 			(at 133.35 198.12 0)
 			(effects
 				(font
@@ -17719,6 +18116,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23060"
+			(at 133.35 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,76 +18494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 237.49 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95e3b02e-1fae-402c-9b46-23669baa52c8")
-		(property "Reference" "R44"
-			(at 240.03 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39k"
-			(at 240.03 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f91065e7-8d09-43a6-8d81-233166c9e046")
-		)
-		(pin "1"
-			(uuid "42301295-dc81-45dc-94d2-bf8f18e62ecc")
-		)
-		(instances
-			(project "dsSpace1104_control"
-				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 214.63 0)
 		(unit 1)
@@ -18413,7 +18749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.75 197.358 90)
 			(effects
 				(font
@@ -18422,7 +18758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 285.75 195.58 0)
 			(effects
 				(font
@@ -18433,6 +18769,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 285.75 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 285.75 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18483,7 +18828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 351.028 100.33 90)
 			(effects
 				(font
@@ -18492,7 +18837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26701-0603WAF1821T5E/C25958"
 			(at 349.25 100.33 0)
 			(effects
 				(font
@@ -18502,6 +18847,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 349.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25958"
 			(at 349.25 100.33 0)
 			(effects
 				(font
@@ -18821,7 +19175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/onsemi-LM358DR2G/C7950"
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -18839,7 +19193,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5423"
+		(property "JLCPCB" "C7950"
 			(at 91.44 106.68 0)
 			(effects
 				(font
@@ -18883,7 +19237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 193.04 0)
+		(at 237.49 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18892,7 +19246,7 @@
 		(fields_autoplaced yes)
 		(uuid "a207378c-e522-4c95-bf15-9e3cb61ac288")
 		(property "Reference" "#PWR038"
-			(at 237.49 199.39 0)
+			(at 237.49 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18901,7 +19255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 198.12 0)
+			(at 237.49 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18909,7 +19263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 193.04 0)
+			(at 237.49 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18918,7 +19272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 193.04 0)
+			(at 237.49 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18927,7 +19281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 193.04 0)
+			(at 237.49 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19185,7 +19539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 154.178 90)
 			(effects
 				(font
@@ -19194,7 +19548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23787-0603WAF4640T5E/C23060"
 			(at 135.89 152.4 0)
 			(effects
 				(font
@@ -19205,6 +19559,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23060"
+			(at 135.89 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,7 +19773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.71 267.208 90)
 			(effects
 				(font
@@ -19419,7 +19782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 92.71 265.43 0)
 			(effects
 				(font
@@ -19430,6 +19793,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 92.71 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 92.71 265.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19477,7 +19849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.98 169.418 90)
 			(effects
 				(font
@@ -19486,7 +19858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 93.98 167.64 0)
 			(effects
 				(font
@@ -19497,6 +19869,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 93.98 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 93.98 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19544,7 +19925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 313.69 155.448 90)
 			(effects
 				(font
@@ -19553,7 +19934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 313.69 153.67 0)
 			(effects
 				(font
@@ -19564,6 +19945,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 313.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 313.69 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19611,7 +20001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 298.45 127.508 90)
 			(effects
 				(font
@@ -19620,7 +20010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://jlcpcb.com/partdetail/23638-0603WAF2152T5E/C22911"
 			(at 298.45 125.73 0)
 			(effects
 				(font
@@ -19631,6 +20021,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 298.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22911"
+			(at 298.45 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19678,7 +20077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.68 141.478 90)
 			(effects
 				(font
@@ -19687,7 +20086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23783-0603WAF4422T5E/C23056"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -19698,6 +20097,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23056"
+			(at 106.68 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19745,7 +20153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 298.45 84.328 90)
 			(effects
 				(font
@@ -19754,7 +20162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://jlcpcb.com/partdetail/23638-0603WAF2152T5E/C22911"
 			(at 298.45 82.55 0)
 			(effects
 				(font
@@ -19765,6 +20173,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 298.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22911"
+			(at 298.45 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19815,7 +20232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 157.988 255.27 90)
 			(effects
 				(font
@@ -19824,7 +20241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23495-0603WAF1581T5E/C22768"
 			(at 156.21 255.27 0)
 			(effects
 				(font
@@ -19834,6 +20251,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22768"
 			(at 156.21 255.27 0)
 			(effects
 				(font
@@ -19882,7 +20308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 217.678 90)
 			(effects
 				(font
@@ -19891,7 +20317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18478-0805W8F6493T5E/C17790"
 			(at 149.86 215.9 0)
 			(effects
 				(font
@@ -19902,6 +20328,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17790"
+			(at 149.86 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19984,6 +20419,85 @@
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57226d4-e06e-48ed-9b64-dfa933af5bc9")
+		(property "Reference" "R7"
+			(at 238.76 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 238.76 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 234.442 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18632-1206W4F2001T5E/C17944"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17944"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ee7e7f1-43ee-4e5c-9ff0-8c451bc275f9")
+		)
+		(pin "1"
+			(uuid "83447572-7330-43aa-aef7-8e5b2237e58b")
+		)
+		(instances
+			(project ""
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -20405,7 +20919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.258 157.48 90)
 			(effects
 				(font
@@ -20414,7 +20928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23495-0603WAF1581T5E/C22768"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -20424,6 +20938,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22768"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -20863,7 +21386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 313.69 112.268 90)
 			(effects
 				(font
@@ -20872,7 +21395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 313.69 110.49 0)
 			(effects
 				(font
@@ -20883,6 +21406,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 313.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 313.69 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21009,7 +21541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 344.17 199.898 90)
 			(effects
 				(font
@@ -21018,7 +21550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 344.17 198.12 0)
 			(effects
 				(font
@@ -21029,6 +21561,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 344.17 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 344.17 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21076,7 +21617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 151.638 90)
 			(effects
 				(font
@@ -21085,7 +21626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26723-0603WAF7151T5E/C25980"
 			(at 77.47 149.86 0)
 			(effects
 				(font
@@ -21096,6 +21637,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 77.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "0603"
+			(at 77.47 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21276,7 +21826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.62 251.968 90)
 			(effects
 				(font
@@ -21285,7 +21835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23787-0603WAF4640T5E/C23060"
 			(at 134.62 250.19 0)
 			(effects
 				(font
@@ -21296,6 +21846,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23060"
+			(at 134.62 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21569,7 +22128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.56 189.738 90)
 			(effects
 				(font
@@ -21578,7 +22137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23634-0603WAF2871T5E/C22907"
 			(at 162.56 187.96 0)
 			(effects
 				(font
@@ -21589,6 +22148,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22907"
+			(at 162.56 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21639,7 +22207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 99.568 252.73 90)
 			(effects
 				(font
@@ -21648,7 +22216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26705-0603WAF2492T5E/C25962"
 			(at 97.79 252.73 0)
 			(effects
 				(font
@@ -21658,6 +22226,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25962"
 			(at 97.79 252.73 0)
 			(effects
 				(font
@@ -22003,7 +22580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 269.24 94.488 90)
 			(effects
 				(font
@@ -22012,7 +22589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23829-0603WAF7681T5E/C23102"
 			(at 269.24 92.71 0)
 			(effects
 				(font
@@ -22023,6 +22600,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 269.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23102"
+			(at 269.24 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22238,6 +22824,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bef599-1359-4cf8-b01c-ecc68f81dc50")
+		(property "Reference" "R84"
+			(at 240.03 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 240.03 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 235.712 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18632-1206W4F2001T5E/C17944"
+			(at 237.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17944"
+			(at 237.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d10302a-c108-4db4-a106-b554edeebba7")
+		)
+		(pin "1"
+			(uuid "e0b70451-7cc1-4845-8654-2dc7491cd385")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 290.83 189.23 0)
 		(unit 1)
@@ -22328,7 +22993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 180.34 171.958 90)
 			(effects
 				(font
@@ -22337,7 +23002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 180.34 170.18 0)
 			(effects
 				(font
@@ -22348,6 +23013,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 180.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 180.34 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22694,7 +23368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 239.268 90)
 			(effects
 				(font
@@ -22703,7 +23377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23783-0603WAF4422T5E/C23056"
 			(at 105.41 237.49 0)
 			(effects
 				(font
@@ -22714,6 +23388,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 105.41 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23056"
+			(at 105.41 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22738,7 +23421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 99.06 0)
+		(at 236.22 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22747,7 +23430,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfdf40eb-07d1-4fed-976b-26ee04976ada")
 		(property "Reference" "R8"
-			(at 238.76 97.7899 0)
+			(at 238.76 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22756,7 +23439,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 238.76 100.3299 0)
+			(at 238.76 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22764,8 +23447,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.442 99.06 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 234.442 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22773,8 +23456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 236.22 99.06 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 236.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22783,7 +23466,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 99.06 0)
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 236.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23803,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 100.838 154.94 90)
 			(effects
 				(font
@@ -23120,7 +23812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26705-0603WAF2492T5E/C25962"
 			(at 99.06 154.94 0)
 			(effects
 				(font
@@ -23130,6 +23822,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25962"
 			(at 99.06 154.94 0)
 			(effects
 				(font
@@ -23318,6 +24019,84 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 237.49 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e66ca887-8f08-46a6-9bdf-22dbcece9fe6")
+		(property "Reference" "R83"
+			(at 240.03 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 239.776 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 235.712 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC2512FK7W39KL/C7209412"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C7209412"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a78a0f7-52ea-4e6d-9b31-4fab7cc7b79f")
+		)
+		(pin "1"
+			(uuid "990319ef-cfaf-42a5-811c-505ddb7a7933")
+		)
+		(instances
+			(project "dsSpace1104_control"
+				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 154.94 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23344,7 +24123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.718 203.2 90)
 			(effects
 				(font
@@ -23353,7 +24132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23495-0603WAF1581T5E/C22768"
 			(at 154.94 203.2 0)
 			(effects
 				(font
@@ -23363,6 +24142,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22768"
 			(at 154.94 203.2 0)
 			(effects
 				(font
@@ -23411,7 +24199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 372.11 114.808 90)
 			(effects
 				(font
@@ -23420,7 +24208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 372.11 113.03 0)
 			(effects
 				(font
@@ -23431,6 +24219,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 372.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 372.11 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23655,7 +24452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 351.028 185.42 90)
 			(effects
 				(font
@@ -23664,7 +24461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26701-0603WAF1821T5E/C25958"
 			(at 349.25 185.42 0)
 			(effects
 				(font
@@ -23674,6 +24471,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 349.25 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25958"
 			(at 349.25 185.42 0)
 			(effects
 				(font
@@ -23930,7 +24736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 356.87 86.868 90)
 			(effects
 				(font
@@ -23939,7 +24745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-CR1206_FX1371ELF/C204642"
 			(at 356.87 85.09 0)
 			(effects
 				(font
@@ -23950,6 +24756,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 356.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C204642"
+			(at 356.87 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23997,7 +24812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 344.17 114.808 90)
 			(effects
 				(font
@@ -24006,7 +24821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 344.17 113.03 0)
 			(effects
 				(font
@@ -24017,6 +24832,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 344.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 344.17 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24159,7 +24983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 298.45 169.418 90)
 			(effects
 				(font
@@ -24168,7 +24992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "~https://jlcpcb.com/partdetail/23638-0603WAF2152T5E/C22911"
 			(at 298.45 167.64 0)
 			(effects
 				(font
@@ -24179,6 +25003,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 298.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22911"
+			(at 298.45 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24368,7 +25201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 169.418 90)
 			(effects
 				(font
@@ -24377,7 +25210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23635-0603WAF2491T5E/C22908"
 			(at 121.92 167.64 0)
 			(effects
 				(font
@@ -24388,6 +25221,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 121.92 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22908"
+			(at 121.92 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24501,7 +25343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.75 155.448 90)
 			(effects
 				(font
@@ -24510,7 +25352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23575-0603WAF1741T5E/C22848"
 			(at 285.75 153.67 0)
 			(effects
 				(font
@@ -24521,6 +25363,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 285.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22848"
+			(at 285.75 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)

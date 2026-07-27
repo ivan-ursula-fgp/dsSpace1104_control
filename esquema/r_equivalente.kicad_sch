@@ -520,7 +520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 132.842 68.58 90)
 			(effects
 				(font
@@ -529,7 +529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18632-1206W4F2001T5E/C17944"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -539,6 +539,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17944"
 			(at 134.62 68.58 0)
 			(effects
 				(font
