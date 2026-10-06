@@ -9959,7 +9959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14c7a527-2c53-4043-aa2b-7dac55a25b07")
-		(property "Reference" "J2"
+		(property "Reference" "AC_I_CH1"
 			(at 289.56 239.0531 0)
 			(effects
 				(font
@@ -9977,7 +9977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 285.75 240.03 0)
 			(effects
 				(font
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 285.75 240.03 0)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 285.75 240.03 0)
 			(effects
 				(font
@@ -10022,7 +10022,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J2")
+					(reference "AC_I_CH1")
 					(unit 1)
 				)
 			)
@@ -12250,7 +12250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c80165c-613f-4dff-a242-4507e5777a32")
-		(property "Reference" "J1"
+		(property "Reference" "DC_V1"
 			(at 267.97 178.0931 0)
 			(effects
 				(font
@@ -12268,7 +12268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -12277,7 +12277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -12295,7 +12295,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -12313,7 +12313,7 @@
 		(instances
 			(project ""
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J1")
+					(reference "DC_V1")
 					(unit 1)
 				)
 			)
@@ -14967,7 +14967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6023459b-6e55-4eca-863e-5b5779541c27")
-		(property "Reference" "J14"
+		(property "Reference" "PWM3"
 			(at 218.44 151.4231 0)
 			(effects
 				(font
@@ -14985,7 +14985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 214.63 152.4 0)
 			(effects
 				(font
@@ -14994,7 +14994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 214.63 152.4 0)
 			(effects
 				(font
@@ -15012,7 +15012,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 214.63 152.4 0)
 			(effects
 				(font
@@ -15030,7 +15030,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J14")
+					(reference "PWM3")
 					(unit 1)
 				)
 			)
@@ -16647,7 +16647,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C19193423"
+		(property "JLCPCB" "C28595"
 			(at 299.72 116.84 0)
 			(effects
 				(font
@@ -18173,7 +18173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8436c1b9-0dcf-415c-b93c-97ff08b8e9e6")
-		(property "Reference" "J3"
+		(property "Reference" "AC_I_CH2"
 			(at 287.02 284.7731 0)
 			(effects
 				(font
@@ -18191,7 +18191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 283.21 285.75 0)
 			(effects
 				(font
@@ -18200,7 +18200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 283.21 285.75 0)
 			(effects
 				(font
@@ -18218,7 +18218,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 283.21 285.75 0)
 			(effects
 				(font
@@ -18236,7 +18236,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J3")
+					(reference "AC_I_CH2")
 					(unit 1)
 				)
 			)
@@ -20948,7 +20948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c88431-898d-4b34-b949-5d0de873ef06")
-		(property "Reference" "J5"
+		(property "Reference" "A_V_CH1"
 			(at 480.06 181.9031 0)
 			(effects
 				(font
@@ -20966,7 +20966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 476.25 182.88 0)
 			(effects
 				(font
@@ -20975,7 +20975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 476.25 182.88 0)
 			(effects
 				(font
@@ -20993,7 +20993,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 476.25 182.88 0)
 			(effects
 				(font
@@ -21011,7 +21011,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J5")
+					(reference "A_V_CH1")
 					(unit 1)
 				)
 			)
@@ -21027,7 +21027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a97dde05-9fe1-44a7-8298-9e19a8d9744a")
-		(property "Reference" "J8"
+		(property "Reference" "DC_I1"
 			(at 200.66 190.7931 0)
 			(effects
 				(font
@@ -21045,7 +21045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 196.85 191.77 0)
 			(effects
 				(font
@@ -21054,7 +21054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 196.85 191.77 0)
 			(effects
 				(font
@@ -21072,7 +21072,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 196.85 191.77 0)
 			(effects
 				(font
@@ -21090,7 +21090,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J8")
+					(reference "DC_I1")
 					(unit 1)
 				)
 			)
@@ -21861,7 +21861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5af7743-f7c4-4f82-8281-98eae36d0f41")
-		(property "Reference" "J20"
+		(property "Reference" "PWM1"
 			(at 218.44 77.7631 0)
 			(effects
 				(font
@@ -21879,7 +21879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -21888,7 +21888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -21906,7 +21906,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -21924,7 +21924,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J20")
+					(reference "PWM1")
 					(unit 1)
 				)
 			)
@@ -22407,7 +22407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c113b705-01f9-4dbb-940f-70e5ecf74b5e")
-		(property "Reference" "J7"
+		(property "Reference" "AC_V_CH3"
 			(at 481.33 266.9931 0)
 			(effects
 				(font
@@ -22425,7 +22425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 477.52 267.97 0)
 			(effects
 				(font
@@ -22434,7 +22434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 477.52 267.97 0)
 			(effects
 				(font
@@ -22452,7 +22452,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 477.52 267.97 0)
 			(effects
 				(font
@@ -22470,7 +22470,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J7")
+					(reference "AC_V_CH3")
 					(unit 1)
 				)
 			)
@@ -23892,7 +23892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d287269a-47d9-4b67-b2c4-3326499da0af")
-		(property "Reference" "J13"
+		(property "Reference" "PWM2"
 			(at 218.44 117.1331 0)
 			(effects
 				(font
@@ -23910,7 +23910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 214.63 118.11 0)
 			(effects
 				(font
@@ -23919,7 +23919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 214.63 118.11 0)
 			(effects
 				(font
@@ -23937,7 +23937,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 214.63 118.11 0)
 			(effects
 				(font
@@ -23955,7 +23955,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J13")
+					(reference "PWM2")
 					(unit 1)
 				)
 			)
@@ -24611,7 +24611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac53ba8-a8ec-4702-8309-8d0eb7a0b183")
-		(property "Reference" "J6"
+		(property "Reference" "AC_V_CH2"
 			(at 478.79 225.0831 0)
 			(effects
 				(font
@@ -24629,7 +24629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 474.98 226.06 0)
 			(effects
 				(font
@@ -24638,7 +24638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 474.98 226.06 0)
 			(effects
 				(font
@@ -24656,7 +24656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 474.98 226.06 0)
 			(effects
 				(font
@@ -24674,7 +24674,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J6")
+					(reference "AC_V_CH2")
 					(unit 1)
 				)
 			)
@@ -25950,7 +25950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e894a3e2-aa78-4e4c-87ed-d544d3d6749e")
-		(property "Reference" "J4"
+		(property "Reference" "AC_I_CH3"
 			(at 288.29 336.8431 0)
 			(effects
 				(font
@@ -25968,7 +25968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "proy_lib:Coaxila"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 284.48 337.82 0)
 			(effects
 				(font
@@ -25977,7 +25977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C709673.html?s_z=n_q_t_bnc&spm=wm.fly.bg.7.xh___wm.ssy.tc.0.tz&lcsc_vid=R1QLBAFVQgdXBgJURABdX1QDQlYNUAFeQ1UIBFZQR1QxVlNeQ1NWVl1fR1hcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C496549.html?spm=wm.fly.bg.14.xh&lcsc_vid=RwQLAwYHRFNXBgFTQlAPVAAFT1gIAlNXRgBeUgdUEQcxVlNeT1hbV1RWRVlcUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQFFXUVNVWQkaCgg%3D"
 			(at 284.48 337.82 0)
 			(effects
 				(font
@@ -25995,7 +25995,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C709673"
+		(property "JLCPCB" "C496549"
 			(at 284.48 337.82 0)
 			(effects
 				(font
@@ -26013,7 +26013,7 @@
 		(instances
 			(project "dsSpace1104_control"
 				(path "/b2cb277f-6a8a-41eb-92b8-3e6b3c4ee6b3"
-					(reference "J4")
+					(reference "AC_I_CH3")
 					(unit 1)
 				)
 			)
